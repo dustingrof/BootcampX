@@ -1,5 +1,4 @@
 const { Pool } = require("pg");
-const myArgs = process.argv.slice(2);
 
 const pool = new Pool({
   user: "vagrant",
